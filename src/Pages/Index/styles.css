@@ -1,0 +1,23 @@
+#slogan {
+  margin-bottom: 2.5rem;
+}
+
+.btn-sign-in {
+  color: #fff;
+  background-color: var(--color-green-primary);
+}
+
+/*.btn-sign-in:focus, .btn-sign-in:hover{
+  background-color: var(--color-green-opacity);
+}*/
+
+.textSlogan {
+  margin-bottom: 3.5rem;
+  font-size: 1rem;
+}
+
+.sectionSlogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
