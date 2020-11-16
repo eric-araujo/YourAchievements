@@ -33,18 +33,14 @@ body {
   font-weight: 400;
 }
 
-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .container {
   padding: 0 1.25rem;
+  display: flex;
 }
 
-.row {
+.column {
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
 }
 
@@ -61,16 +57,10 @@ main {
   flex-direction: row;
   padding: 5% 10%;
   border: none;
-  border-radius: 4px;
+  border-radius: .7rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 1.2rem;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.btn span {
-  margin-right: .5rem;
-  height: 24px;
 }

@@ -10,3 +10,10 @@
   color: var(--color-green-primary);
   font-size: 24px;
 }
+
+@media(min-width: 650px), handheld and (orientation: landscape) {
+  #logo {
+    font-size: 3rem;
+    margin-left: 2.5rem;
+  }
+}

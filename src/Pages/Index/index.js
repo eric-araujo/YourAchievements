@@ -11,7 +11,7 @@ function Index() {
     <div>
       <Header />
       <main className="container">
-        <div className="row">
+        <div className="column">
           <img id="slogan" src={ImagemSlogan} alt="Imagem Slogan"></img>
           <section className="sectionSlogan">
             <h2 className="subTitle">
