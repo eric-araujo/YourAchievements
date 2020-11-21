@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../../Components/Header';
 
 import './styles.css';
@@ -20,10 +21,13 @@ function Register() {
                         </p>
                     </section>
                     <form className="form">
-                        <input className="input" type="text" placeholder="Nome"/>
-                        <input className="input" type="email" placeholder="E-mail"/>
-                        <input className="input" type="password" placeholder="Senha"/>
-                        <input className="input" type="password" placeholder="Confirmar Senha"/>
+                        <input className="input" type="text" placeholder="Nome" />
+                        <input className="input" type="email" placeholder="E-mail" />
+                        <input className="input" type="password" placeholder="Senha" />
+                        <input className="input" type="password" placeholder="Confirmar Senha" />
+                        <Link to="/" className="link">
+                            Já tem cadastro?
+                        </Link>
                         <button className="btn btn-register" type="submit">Cadastrar</button>
                     </form>
                 </div>
