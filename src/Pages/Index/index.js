@@ -23,7 +23,7 @@ function Index() {
               seus objetivos.
             </p>
           </section>
-          <Link to="/" className="btn btn-sign-in">
+          <Link to="/register" className="btn btn-sign-in">
             <span><LogIn /></span> <b>Acessar</b>
           </Link>
         </div>
