@@ -14,7 +14,32 @@
 .btn-register {
     width: 90%;
     padding: 4% 10%;
-
     background-color: var(--color-gray);
     color: #FFF;
+}
+
+@media(min-width: 650px), handheld and (orientation: landscape) {
+    .column {
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "sloganAndImg form" "button slogan";
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+    .form {
+        width: 90%;
+        height: 90%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        grid-area: form;
+        justify-self: end;
+        margin-bottom: 2.5rem;
+    }
+
+    .input {
+        width: 90%;
+        padding: 3% !important;
+        font-size: 1.3rem !important;
+    }
 }

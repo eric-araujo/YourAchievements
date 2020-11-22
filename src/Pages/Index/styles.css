@@ -40,11 +40,6 @@
     justify-self: end;
     margin-bottom: 2.5rem;
   }
-  .sectionSlogan {
-    grid-area: sloganAndImg;
-    display: flex;
-    align-self: center;
-  }
   .textSlogan {
     font-size: 1.7rem !important;
     font-weight: 400;
