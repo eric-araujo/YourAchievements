@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
- import Index from './Pages/Index';
+import Index from './Pages/Index';
 import Register from './Pages/Register';
 
 const Routes = () => {

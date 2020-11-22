@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Header from '../../Components/Header';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import Header from "../../Components/Header";
 
-import './styles.css';
+import "./styles.css";
 
 function Register() {
     return (
@@ -15,7 +15,7 @@ function Register() {
                             <b className="yachi">Hey!</b> Quase Esqueci...
                         </h2>
                         <p className="textSlogan">
-                            Para eu ajudar você a controlar suas finanças,
+                            Para eu ajudar você a alcançar seus objetivos,
                             preciso que você tenha um cadastro.
                             Se cadastra, é rapidinho :)
                         </p>

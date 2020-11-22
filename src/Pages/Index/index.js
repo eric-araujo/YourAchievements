@@ -1,10 +1,10 @@
-import Header from '../../Components/Header';
-import { Link } from 'react-router-dom';
-import { LogIn } from 'react-feather';
+import Header from "../../Components/Header";
+import { Link } from "react-router-dom";
+import { LogIn } from "react-feather";
 
-import ImagemSlogan from '../../Assets/img/ImagemSlogan.svg';
+import ImagemSlogan from "../../Assets/img/ImagemSlogan.svg";
 
-import './styles.css';
+import "./styles.css";
 
 function Index() {
   return (

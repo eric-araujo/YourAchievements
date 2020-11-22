@@ -1,6 +1,6 @@
-import Routes from './routes';
+import Routes from "./routes";
 
-import './Global/styles.css';
+import "./Global/styles.css";
 
 function App() {
   return (
