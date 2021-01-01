@@ -20,7 +20,7 @@ function Register() {
                             Se cadastra, é rapidinho :)
                         </p>
                     </section>
-                    <form className="form">
+                    <form className="form" action="/login">
                         <input className="input" type="text" placeholder="Nome" />
                         <input className="input" type="email" placeholder="E-mail" />
                         <input className="input" type="password" placeholder="Senha" />
