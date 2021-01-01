@@ -9,7 +9,7 @@ function Register() {
         <div>
             <Header />
             <main className="container">
-                <div className="column">
+                <div className="columnRegister">
                     <section className="sectionSlogan">
                         <h2 className="subTitle">
                             <b className="yachi">Hey!</b> Quase Esqueci...

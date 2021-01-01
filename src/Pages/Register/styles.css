@@ -1,3 +1,9 @@
+.columnRegister {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -18,15 +24,17 @@
     color: #FFF;
 }
 
-@media(min-width: 650px), handheld and (orientation: landscape) {
-    .column {
+@media(min-width: 650px),
+handheld and (orientation: landscape) {
+    .columnRegister {
         display: grid;
         grid-template-rows: 2fr 1fr;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "sloganAndImg form" "button slogan";
+        grid-template-areas: "sloganAndImg form""button slogan";
         margin-left: 1.5%;
         margin-right: 1.5%;
     }
+
     .form {
         width: 90%;
         height: 90%;

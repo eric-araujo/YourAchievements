@@ -11,7 +11,7 @@ function Index() {
     <div>
       <Header />
       <main className="container">
-        <div className="column">
+        <div className="columnHome">
           <img id="slogan" src={ImagemSlogan} alt="Imagem Slogan"></img>
           <section className="sectionSlogan">
             <h2 className="subTitle">
@@ -19,8 +19,7 @@ function Index() {
             </h2>
             <p className="textSlogan">
               <b className="yachi">Yachi!</b> é um aplicativo para controle de
-              suas finanças, ele faz isso com o intuito de lhe ajudar a alcançar
-              seus objetivos.
+              seus objetivos, ele faz isso com o intuito de ajudar você a conseguir realizar seus sonhos!
             </p>
           </section>
           <Link to="/register" className="btn btn-sign-in">
