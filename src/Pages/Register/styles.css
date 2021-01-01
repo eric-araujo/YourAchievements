@@ -50,4 +50,22 @@ handheld and (orientation: landscape) {
         padding: 3% !important;
         font-size: 1.3rem !important;
     }
+
+    .btn {
+        font-size: 1.6rem !important;
+    }
+
+    .btn-register {
+        width: 60%;
+        padding: 2.5% 5%;
+    }
+
+    .sectionSlogan {
+        justify-content: flex-start !important;
+        height: 60% !important;
+    }
+
+    .subTitle {
+        margin-bottom: 4rem !important;
+    }
 }
