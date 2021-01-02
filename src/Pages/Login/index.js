@@ -13,20 +13,25 @@ function Register() {
             <main className="container">
                 <div className="columnLogin">
                     <article className="sectionSlogan">
-                        <p className="textSlogan">
+                        <p className="textSloganLogin letsGo">
                             <b className="yachi">Opa! Vamos começar!</b> acesse ou crie sua conta para eu te ajudar a alcançar seus objetivos :) 
                         </p>
                         <img id="imageCreateSession" src={SignIn} alt="Criar Sessão"></img>
                     </article>
-                    <form className="form">
+                    <form className="formLogin" action="">
                         <input className="input" type="email" placeholder="E-mail" />
                         <input className="input" type="password" placeholder="Senha" />
-                        <Link to="/" className="link">
-                            Esqueceu a senha?
-                        </Link>
+                        <div className="forgotPassword">
+                            <Link to="/" className="link linkForgotPassword">
+                                Esqueceu a senha?
+                            </Link>
+                        </div>
                         <div className="buttons">
                             <button className="btn btn-login" type="submit">Entrar</button>
-                            <button className="btn btn-new-user" type="submit">Criar Conta</button>
+                            <Link to="/register" className="btn btn-new-user">
+                                Criar Conta
+                            </Link>
+                            {/* <button className="btn btn-new-user" type="button">Criar Conta</button> */}
                         </div>
                     </form>
                 </div>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
 :root {
   --color-green-primary: #66d655;
   --color-green-opacity: #66d655cc;
@@ -10,7 +11,9 @@
   padding: 0;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
@@ -18,7 +21,9 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
 }
@@ -87,7 +92,7 @@ body {
   height: 40%;
 }
 
-@media(min-width: 650px), handheld and (orientation: landscape) {
+@media(min-width: 650px) {
   .sectionSlogan {
     grid-area: sloganAndImg;
     display: flex;

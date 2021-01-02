@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-.form {
+.formLogin {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,32 +32,48 @@
     color: #FFF;
 }
 
+.btn-login:hover {
+    background-color: var(--color-green-opacity);
+    transition: .5s;
+}
+
 .btn-new-user {
     width: 40%;
+    height: 100%;
     padding: 3% 0%;
     background-color: #FFF;
     color: var(--color-green-primary);
+}
+
+.btn-new-user:hover {
+    background-color: #FFF;
 }
 
 .sectionSlogan {
     height: 60% !important;
 }
 
-.link {
+.forgotPassword {
+    width: 89%;
+    height: 15%;
+    margin-bottom: 4%;
+}
+
+.linkForgotPassword {
     color: var(--color-green-primary);
 }
 
-.textSlogan {
+.textSloganLogin {
     font-size: 1.5rem !important;
     font-weight: 700;
+    margin-bottom: 5%;
 }
 
 #imageCreateSession {
     width: 75%;
 }
 
-@media(min-width: 650px),
-handheld and (orientation: landscape) {
+@media(min-width: 650px) {
     .columnLogin {
         display: grid;
         grid-template-rows: 2fr 1fr;
@@ -67,14 +83,13 @@ handheld and (orientation: landscape) {
         margin-right: 1.5%;
     }
 
-    .form {
+    .formLogin {
         width: 90%;
-        height: 90%;
+        height: 500px;
         padding-top: 7%;
         padding-bottom: 7%;
         grid-area: form;
         justify-self: end;
-        margin-bottom: 2.5rem;
     }
 
     .input {
@@ -84,20 +99,25 @@ handheld and (orientation: landscape) {
     }
 
     .btn {
-        font-size: 1.6rem !important;
-    }
-
-    .btn-register {
-        width: 60%;
-        padding: 2.5% 5%;
+        font-size: 1.8rem !important;
     }
 
     .sectionSlogan {
         justify-content: flex-start !important;
-        height: 60% !important;
+        height: 68% !important;
     }
 
-    .subTitle {
-        margin-bottom: 4rem !important;
+    .letsGo {
+        font-size: 2rem !important;
+        color: var(--color-gray);
+    }
+
+    #imageCreateSession {
+        width: 65%;
+        grid-area: form;
+    }
+
+    .forgotPassword:hover {
+        background-color: initial;
     }
 }

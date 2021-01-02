@@ -22,25 +22,29 @@
   height: 24px;
 }
 
-@media(min-width: 650px), handheld and (orientation: landscape) {
+@media(min-width: 650px) {
   body {
     overflow: hidden;
   }
+
   a {
     height: 50%;
   }
+
   a:hover {
     background-color: var(--color-green-opacity);
     transition: .5s;
   }
+
   .columnHome {
     display: grid;
     grid-template-rows: 2fr 1fr;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "sloganAndImg picture" "button slogan";
+    grid-template-areas: "sloganAndImg picture""button slogan";
     margin-left: 1.5%;
     margin-right: 1.5%;
   }
+
   #slogan {
     width: 90%;
     left: 0%;
@@ -48,24 +52,30 @@
     justify-self: end;
     margin-bottom: 2.5rem;
   }
+
   .textSlogan {
     font-size: 1.7rem !important;
     font-weight: 400;
   }
+
   .subTitle {
     font-size: 2.6rem;
     align-self: flex-start;
   }
+
   .btn-sign-in {
     grid-area: button;
     margin-top: -10%;
   }
+
   .btn span {
     height: 100%;
   }
+
   .btn b {
     font-size: 2.3rem;
   }
+
   .btn svg {
     margin-right: 1.6rem;
     width: 100%;
