@@ -59,6 +59,11 @@
         padding: 2.5% 5%;
     }
 
+    .btn-register:hover {
+        background-color: rgb(70, 67, 83, 0.9);
+        transition: .5s;
+    }
+
     .sectionSlogan {
         justify-content: flex-start !important;
         height: 60% !important;
