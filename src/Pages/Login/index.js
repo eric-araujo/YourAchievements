@@ -6,7 +6,7 @@ import SignIn from "../../Assets/img/SignIn.svg";
 
 import "./styles.css";
 
-function Register() {
+function Login() {
     return (
         <div>
             <Header />
@@ -18,7 +18,7 @@ function Register() {
                         </p>
                         <img id="imageCreateSession" src={SignIn} alt="Criar Sessão"></img>
                     </article>
-                    <form className="formLogin" action="">
+                    <form className="formLogin" action="/panel">
                         <input className="input" type="email" placeholder="E-mail" />
                         <input className="input" type="password" placeholder="Senha" />
                         <div className="forgotPassword">
@@ -31,7 +31,6 @@ function Register() {
                             <Link to="/register" className="btn btn-new-user">
                                 Criar Conta
                             </Link>
-                            {/* <button className="btn btn-new-user" type="button">Criar Conta</button> */}
                         </div>
                     </form>
                 </div>
@@ -40,4 +39,4 @@ function Register() {
     );
 }
 
-export default Register;
+export default Login;

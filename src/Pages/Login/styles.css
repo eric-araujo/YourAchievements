@@ -120,4 +120,8 @@
     .forgotPassword:hover {
         background-color: initial;
     }
+
+    .linkForgotPassword:hover {
+        background-color: initial;
+    }
 }

@@ -1,0 +1,83 @@
+#headerPanel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+
+#logoPanel {
+  margin-left: 1.2rem;
+  color: var(--color-green-primary);
+  font-size: 1.5rem;
+}
+
+.divLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+}
+
+.textWelcome {
+  font-size: .9rem;
+  font-weight: 700;
+  color: var(--color-gray);
+}
+
+.exit {
+  padding: 5% 8%;
+  margin-right: 5%;
+  justify-content: space-around;
+
+  background-color: var(--color-green-primary);
+  color: #FFF;
+}
+
+@media(min-width: 650px) {
+
+  #logoPanel {
+    font-size: 3rem;
+    margin-left: 2.5rem;
+  }
+
+  .divLogo {
+    align-items: baseline !important;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+  }
+
+  .textWelcome {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-gray);
+  }
+
+  .exit {
+    padding: 2% 8%;
+    margin-right: 5%;
+    font-size: 2rem !important;
+  }
+
+  .exit:hover {
+    background-color: var(--color-green-opacity);
+    transition: .4s;
+  }
+
+  .btn > .logout {
+    margin-right: .5rem;
+    height: 2.5rem;
+  }
+
+}
