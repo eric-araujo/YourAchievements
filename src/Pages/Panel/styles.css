@@ -1,0 +1,44 @@
+.columnPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.divSearch {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-gray);
+
+    border-radius: .4rem;
+}
+
+.search {
+    width: 85%;
+    padding: 4.3% 3%;
+    font-size: 1rem;
+    font-weight: 500;
+
+    background-color: initial;
+    color: var(--color-green-primary);
+    border: none;
+}
+
+.search::placeholder {
+    color: var(--color-green-primary);
+    opacity: 1;
+}
+
+.iconSearch {
+    width: 15%;
+    height: 100%;
+    background-color: initial;
+    border: none;
+
+    cursor: pointer;
+    border-left: .2rem solid var(--color-green-primary);
+}
+
+.iconSearch > span {
+    color: var(--color-green-primary);
+}

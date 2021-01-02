@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 1.2rem;
+  margin-bottom: 10%;
 }
 
 #logoPanel {
@@ -59,7 +60,7 @@
   }
 
   .textWelcome {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: var(--color-gray);
   }
