@@ -5,12 +5,15 @@
     width: 100%;
 }
 
-.divSearch {
+.divGray {
     display: flex;
     align-items: center;
+    
     background-color: var(--color-gray);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     border-radius: .4rem;
+    margin-bottom: 5%;
 }
 
 .search {
@@ -41,4 +44,23 @@
 
 .iconSearch > span {
     color: var(--color-green-primary);
+}
+
+.addObjective {
+    width: 100%;
+    padding: 3% 3%;
+    background-color: initial;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--color-green-primary);
+    font-size: 1rem;
+}
+
+.addObjective > span {
+    margin-right: 3%;
 }
