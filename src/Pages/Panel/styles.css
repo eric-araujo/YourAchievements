@@ -64,3 +64,28 @@
 .addObjective > span {
     margin-right: 3%;
 }
+
+.objectives {
+    padding: 10% 7%;
+    margin-bottom: 5%;
+    border-radius: .6rem;
+
+    background-color: var(--color-green-opacity);
+}
+
+.notfound {
+    display: flex;
+    flex-direction: column;
+}
+
+.notfound > img {
+    margin-bottom: 5%;
+}
+
+.notfound > h2 {
+    margin-bottom: 5%;
+}
+
+.notfound > p {
+    text-align: justify;
+}
