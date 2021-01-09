@@ -25,7 +25,7 @@ function Register() {
                         <input className="input" type="email" placeholder="E-mail" />
                         <input className="input" type="password" placeholder="Senha" />
                         <input className="input" type="password" placeholder="Confirmar Senha" />
-                        <Link to="/" className="link">
+                        <Link to="/login" className="link">
                             Já tem cadastro?
                         </Link>
                         <button className="btn btn-register" type="submit">Cadastrar</button>

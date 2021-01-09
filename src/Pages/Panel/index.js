@@ -12,11 +12,11 @@ function Panel() {
             <HeaderPanel />
             <main className="container">
                 <div className="columnPanel">
-                    <div className="divGray">
+                    <div className="divGray divSearch">
                         <input type="text" className="search" placeholder="Pesquisar"/>
                         <button type="button" className="iconSearch"><span><Search /></span></button>
                     </div>
-                    <div className="divGray">
+                    <div className="divGray divAddObjective">
                         <button className="addObjective"><span><Plus /></span>Adicionar Objetivo</button>
                     </div>
                     <div className="objectives">
