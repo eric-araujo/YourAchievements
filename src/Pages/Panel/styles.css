@@ -73,6 +73,65 @@
     background-color: var(--color-green-opacity);
 }
 
+.objective {
+    padding: 3% 3%;
+    border-radius: 6px;
+
+    background-color: var(--color-gray);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.headerObjective {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.headerObjective > button {
+    background-color: initial;
+    border: none;
+}
+
+.headerObjective > button > span {
+    color: var(--color-danger);
+    cursor: pointer;
+}
+
+.headerObjective > h4 {
+    color: #FFF;
+    margin-bottom: 5%;
+}
+
+.objective {
+    margin-bottom: 10%;
+}
+
+.objective > p {
+    color: #FFF;
+    margin-bottom: 10%;
+}
+
+.barProgress {
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+
+    background-color: #FFF;
+    text-align: center;
+}
+
+.progress {
+    width: 50%;
+    background-color: var(--color-green-primary);
+    border-radius:inherit;
+}
+
+.progress > b {
+    color: var(--color-gray);
+    font-size: .8rem;
+}
+
 @media(min-width: 650px) {
     body {
         overflow-y: auto;

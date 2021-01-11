@@ -1,7 +1,7 @@
 import HeaderPanel from "../../Components/HeaderPanel";
 import PanelNotFound from "../../Components/PanelNotFound";
 import { Link } from "react-router-dom";
-import { Search, Plus } from "react-feather";
+import { Search, Plus, XCircle } from "react-feather";
 
 import "./styles.css";
 
@@ -13,13 +13,74 @@ function Panel() {
                 <div className="columnPanel">
                     <div className="divGray divSearch">
                         <input type="text" className="search" placeholder="Pesquisar"/>
-                        <button type="button" className="iconSearch"><span><Search /></span></button>
+                        <button type="button" className="iconSearch">
+                            <span>
+                                <Search />
+                            </span>
+                        </button>
                     </div>
                     <div className="divGray divAddObjective">
                         <button className="addObjective"><span><Plus /></span>Adicionar Objetivo</button>
                     </div>
                     <div className="objectives">
-                       <PanelNotFound />
+                       {/* <PanelNotFound /> */}
+                       <div className="objective">
+                           <div className="headerObjective">
+                                <h4>Perder 15kg</h4>
+                                <button type="button" className="iconDelete">
+                                    <span>
+                                        <XCircle />
+                                    </span>
+                                </button>
+                           </div>
+                            
+                            <p>
+                                Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                            </p>
+                            <div className="barProgress">
+                                <div className="progress">
+                                    <b>50%</b>
+                                </div>
+                            </div>
+                       </div>
+                       <div className="objective">
+                           <div className="headerObjective">
+                                <h4>Perder 15kg</h4>
+                                <button type="button" className="iconDelete">
+                                    <span>
+                                        <XCircle />
+                                    </span>
+                                </button>
+                           </div>
+                            
+                            <p>
+                                Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                            </p>
+                            <div className="barProgress">
+                                <div className="progress">
+                                    <b>50%</b>
+                                </div>
+                            </div>
+                       </div>
+                       <div className="objective">
+                           <div className="headerObjective">
+                                <h4>Perder 15kg</h4>
+                                <button type="button" className="iconDelete">
+                                    <span>
+                                        <XCircle />
+                                    </span>
+                                </button>
+                           </div>
+                            
+                            <p>
+                                Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                            </p>
+                            <div className="barProgress">
+                                <div className="progress">
+                                    <b>50%</b>
+                                </div>
+                            </div>
+                       </div>
                     </div>
                 </div>
             </main>
