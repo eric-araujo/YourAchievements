@@ -22,8 +22,19 @@ function Panel() {
                     <div className="divGray divAddObjective">
                         <button className="addObjective"><span><Plus /></span>Adicionar Objetivo</button>
                     </div>
-                    <div className="objectives">
+                    
                        {/* <PanelNotFound /> */}
+                    <div className="objectives">
+                        <div className="menuHeader">
+                            <div className="checkbox">
+                                <input type="checkbox" name="notDone" id="notDone"/>
+                                <label for="notDone">Objetivos não concluídos</label>
+                            </div>
+                            <div className="checkbox">
+                                <input type="checkbox" name="completed" id="completed"/>
+                                <label for="completed">Objetivos concluídos</label>
+                            </div>
+                        </div>
                        <div className="objective">
                            <div className="headerObjective">
                                 <h4>Perder 15kg</h4>
