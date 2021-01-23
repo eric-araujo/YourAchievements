@@ -88,17 +88,17 @@
     align-items: flex-start;
 }
 
-.headerObjective > button {
+.headerObjective>button {
     background-color: initial;
     border: none;
 }
 
-.headerObjective > button > span {
+.headerObjective>button>span {
     color: var(--color-danger);
     cursor: pointer;
 }
 
-.headerObjective > h4 {
+.headerObjective>h4 {
     color: #FFF;
     margin-bottom: 5%;
 }
@@ -107,7 +107,7 @@
     margin-bottom: 10%;
 }
 
-.objective > p {
+.objective>p {
     color: #FFF;
     margin-bottom: 10%;
 }
@@ -124,10 +124,10 @@
 .progress {
     width: 50%;
     background-color: var(--color-green-primary);
-    border-radius:inherit;
+    border-radius: inherit;
 }
 
-.progress > b {
+.progress>b {
     color: var(--color-gray);
     font-size: .8rem;
 }
@@ -136,7 +136,7 @@
     position: relative;
     width: 116%;
     right: 8%;
-    bottom: 7%;
+    bottom: 3%;
     padding: 3% 2.5%;
     display: flex;
     justify-content: center;
@@ -152,11 +152,11 @@
     align-items: center;
 }
 
-.checkbox > input {
-   background: var(--color-gray);
+.checkbox>input {
+    background: var(--color-gray);
 }
 
-.checkbox > label {
+.checkbox>label {
     font-size: .8rem;
 }
 
@@ -191,7 +191,7 @@
         font-size: 1.4rem;
     }
 
-    .divSearch>button:hover{
+    .divSearch>button:hover {
         border-bottom-right-radius: .4rem;
         border-top-right-radius: .4rem;
         background-color: rgb(255, 255, 255, .1) !important;
@@ -225,17 +225,40 @@
     }
 
     .objectives {
-        display: grid;
         position: relative;
-        bottom: 3%;
+        bottom: 10%;
         margin-bottom: 0% !important;
-        padding: 5% 3% 3% 3% !important;
+        padding: 3% 2% 3% 2% !important;
 
         grid-area: objectives;
+    }
+
+    .gridObjectives {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 1.5%;
+        grid-row-gap: 7%;
     }
 
     .objective {
         margin-bottom: 0%;
     }
+
+    .menuHeader {
+        width: 104% !important;
+        right: 2%;
+        bottom: 7%;
+        padding: 0 !important;
+        justify-content: unset !important;
+    }
+
+    .checkbox {
+        width: unset !important;
+        margin-left: 3.1%;
+        margin-bottom: 1%;
+        justify-content: flex-start !important;
+    }
+
 
 }

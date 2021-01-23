@@ -35,60 +35,119 @@ function Panel() {
                                 <label for="completed">Objetivos concluídos</label>
                             </div>
                         </div>
-                       <div className="objective">
-                           <div className="headerObjective">
-                                <h4>Perder 15kg</h4>
-                                <button type="button" className="iconDelete">
-                                    <span>
-                                        <XCircle />
-                                    </span>
-                                </button>
-                           </div>
-                            
-                            <p>
-                                Item a ser concluído: <b className="yachi">Perder 10kg</b>
-                            </p>
-                            <div className="barProgress">
-                                <div className="progress">
-                                    <b>50%</b>
+                        <div className="gridObjectives">
+                            <div className="objective">
+                                <div className="headerObjective">
+                                        <h4>Perder 15kg</h4>
+                                        <button type="button" className="iconDelete">
+                                            <span>
+                                                <XCircle />
+                                            </span>
+                                        </button>
+                                </div>
+                                    
+                                <p>
+                                    Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                                </p>
+                                <div className="barProgress">
+                                    <div className="progress">
+                                        <b>50%</b>
+                                    </div>
                                 </div>
                             </div>
-                       </div>
-                       <div className="objective">
-                           <div className="headerObjective">
-                                <h4>Perder 15kg</h4>
-                                <button type="button" className="iconDelete">
-                                    <span>
-                                        <XCircle />
-                                    </span>
-                                </button>
-                           </div>
-                            
-                            <p>
-                                Item a ser concluído: <b className="yachi">Perder 10kg</b>
-                            </p>
-                            <div className="barProgress">
-                                <div className="progress">
-                                    <b>50%</b>
+                            <div className="objective">
+                                <div className="headerObjective">
+                                        <h4>Perder 15kg</h4>
+                                        <button type="button" className="iconDelete">
+                                            <span>
+                                                <XCircle />
+                                            </span>
+                                        </button>
+                                </div>
+                                    
+                                <p>
+                                    Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                                </p>
+                                <div className="barProgress">
+                                    <div className="progress">
+                                        <b>50%</b>
+                                    </div>
                                 </div>
                             </div>
-                       </div>
-                       <div className="objective">
-                           <div className="headerObjective">
-                                <h4>Perder 15kg</h4>
-                                <button type="button" className="iconDelete">
-                                    <span>
-                                        <XCircle />
-                                    </span>
-                                </button>
-                           </div>
-                            
-                            <p>
-                                Item a ser concluído: <b className="yachi">Perder 10kg</b>
-                            </p>
-                            <div className="barProgress">
-                                <div className="progress">
-                                    <b>50%</b>
+                            <div className="objective">
+                                <div className="headerObjective">
+                                        <h4>Perder 15kg</h4>
+                                        <button type="button" className="iconDelete">
+                                            <span>
+                                                <XCircle />
+                                            </span>
+                                        </button>
+                                </div>
+                                    
+                                <p>
+                                    Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                                </p>
+                                <div className="barProgress">
+                                    <div className="progress">
+                                        <b>50%</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="objective">
+                                <div className="headerObjective">
+                                        <h4>Perder 15kg</h4>
+                                        <button type="button" className="iconDelete">
+                                            <span>
+                                                <XCircle />
+                                            </span>
+                                        </button>
+                                </div>
+                                    
+                                <p>
+                                    Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                                </p>
+                                <div className="barProgress">
+                                    <div className="progress">
+                                        <b>50%</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="objective">
+                                <div className="headerObjective">
+                                        <h4>Perder 15kg</h4>
+                                        <button type="button" className="iconDelete">
+                                            <span>
+                                                <XCircle />
+                                            </span>
+                                        </button>
+                                </div>
+                                    
+                                <p>
+                                    Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                                </p>
+                                <div className="barProgress">
+                                    <div className="progress">
+                                        <b>50%</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="objective">
+                                <div className="headerObjective">
+                                        <h4>Perder 15kg</h4>
+                                        <button type="button" className="iconDelete">
+                                            <span>
+                                                <XCircle />
+                                            </span>
+                                        </button>
+                                </div>
+                                    
+                                <p>
+                                    Item a ser concluído: <b className="yachi">Perder 10kg</b>
+                                </p>
+                                <div className="barProgress">
+                                    <div className="progress">
+                                        <b>50%</b>
+                                    </div>
                                 </div>
                             </div>
                        </div>
