@@ -152,6 +152,38 @@ function Panel() {
                             </div>
                        </div>
                     </div>
+                    <div className="pagination">
+                        <div className="page first activePaginete">
+                            <a href="#1">1</a>
+                        </div>
+                        <div className="page">
+                            <a href="#2">2</a>
+                        </div>
+                        <div className="page">
+                            <a href="#3">3</a>
+                        </div>
+                        <div className="page">
+                            <a href="#4">4</a>
+                        </div>
+                        <div className="page activePaginete">
+                            <a href="#5">5</a>
+                        </div>
+                        <div className="page">
+                            <a href="#6">6</a>
+                        </div>
+                        <div className="page">
+                            <a href="#7">7</a>
+                        </div>
+                        <div className="page">
+                            <a href="#8">8</a>
+                        </div>
+                        <div className="page">
+                            <a href="#9">9</a>
+                        </div>
+                        <div className="page activePaginete">
+                            <a href="#10">10</a>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>

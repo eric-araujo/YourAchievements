@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
 :root {
-  --color-green-primary: #66d655;
-  --color-green-opacity: #66d655cc;
+  --color-green-primary: #66D655;
+  --color-green-opacity: #66D655CC;
   --color-gray: #464353;
-  --color-gray-opacity: #464353e6;
+  --color-gray-opacity: #464353E6;
   --color-danger: #E55959;
 }
 
