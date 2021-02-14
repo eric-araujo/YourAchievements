@@ -164,24 +164,40 @@
 
 .pagination {
     display: flex;
-    height: 4%;
     align-items: center;
     justify-content: space-between;
-    border-radius: .6rem;
-    background-color: var(--color-gray);
+    height: 4%;
+    margin-bottom: 4%;
+    /* border-radius: .6rem !important; */
 }
 
 .page {
     width: 10%;
     height: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    background-color: var(--color-gray);
 }
 
-.page > a {
+.first {
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+}
+
+.last {
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.page {
+    font-size: 1.1rem;
     color: var(--color-green-primary);
     text-decoration: none;
+}
+
+.activePage {
+    background-color: var(--color-gray-opacity) !important;
 }
 
 @media(min-width: 650px) {

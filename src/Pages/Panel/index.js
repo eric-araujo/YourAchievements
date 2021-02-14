@@ -27,11 +27,11 @@ function Panel() {
                     <div className="objectives">
                         <div className="menuHeader">
                             <div className="checkbox">
-                                <input type="checkbox" name="notDone" id="notDone"/>
+                                <input type="radio" name="notDone" id="notDone"/>
                                 <label for="notDone">Objetivos não concluídos</label>
                             </div>
                             <div className="checkbox">
-                                <input type="checkbox" name="completed" id="completed"/>
+                                <input type="radio" name="completed" id="completed"/>
                                 <label for="completed">Objetivos concluídos</label>
                             </div>
                         </div>
@@ -153,36 +153,16 @@ function Panel() {
                        </div>
                     </div>
                     <div className="pagination">
-                        <div className="page first activePaginete">
-                            <a href="#1">1</a>
-                        </div>
-                        <div className="page">
-                            <a href="#2">2</a>
-                        </div>
-                        <div className="page">
-                            <a href="#3">3</a>
-                        </div>
-                        <div className="page">
-                            <a href="#4">4</a>
-                        </div>
-                        <div className="page activePaginete">
-                            <a href="#5">5</a>
-                        </div>
-                        <div className="page">
-                            <a href="#6">6</a>
-                        </div>
-                        <div className="page">
-                            <a href="#7">7</a>
-                        </div>
-                        <div className="page">
-                            <a href="#8">8</a>
-                        </div>
-                        <div className="page">
-                            <a href="#9">9</a>
-                        </div>
-                        <div className="page activePaginete">
-                            <a href="#10">10</a>
-                        </div>
+                        <a  href="#1" className="page first activePage">1</a>
+                        <a  href="#2" className="page">2</a>
+                        <a  href="#3" className="page">3</a>
+                        <a  href="#4" className="page">4</a>
+                        <a  href="#5" className="page">5</a>
+                        <a  href="#6" className="page">6</a>
+                        <a  href="#7" className="page">7</a>
+                        <a  href="#8" className="page">8</a>
+                        <a  href="#9" className="page">9</a>
+                        <a  href="#10" className="page last">10</a>
                     </div>
                 </div>
             </main>
